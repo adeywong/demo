@@ -1,13 +1,15 @@
 {
-	"dependencies": [{
-		"name": "Program ABC",
-		"type": "PROGRAM",
-		"details": null
-	}, {
-		"name": "Program DEF",
-		"type": "PROGRAM",
-		"details": {
-			"publishedFlag": "Y"
-		}
-	}]
+    "appId" : "abcdefgh-abcdefgh-abcdefgh-abcdefgh",
+    "installId" : "efghhgfe-abcddcba-efghhgfe-abcddcba",
+    "deletionPermitted" : "N"
+    "dependencies" :
+    [
+        { "name" : "Program ABC", "type" : "PROGRAM", "details" : null },
+        { "name" : "Program DEF", "type" : "PROGRAM", "details" : { "publishedFlag" : "Y" } }
+    ],
+    "limit" : 50,
+    "offset": 101,
+    "hasMore" : true,
+    "totalResults" : 234,
+    "totalPages" : 5
 }
